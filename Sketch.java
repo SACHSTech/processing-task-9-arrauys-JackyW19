@@ -19,7 +19,7 @@ public class Sketch extends PApplet {
   int intLives = 3;
   boolean mouseClicked = false;
   
-  boolean[] ballHideStatus = new boolean[45];
+  boolean[] ballHideStatus = new boolean[50];
 
   
   public void settings() {
