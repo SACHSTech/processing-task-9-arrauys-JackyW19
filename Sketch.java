@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
   
   int intSpeed = 2;
   float playerX = 400;
-  float playerY = 400;
+  float playerY = 375;
   
   boolean upPress = false;
   boolean downPress = false;
