@@ -19,7 +19,7 @@ public class Sketch extends PApplet {
   int intLives = 3;
   boolean mouseClicked = false;
   
-  boolean[] ballHideStatus = new boolean[50];
+  boolean[] ballHideStatus = new boolean[55];
 
   
   public void settings() {
@@ -109,7 +109,7 @@ public class Sketch extends PApplet {
   }
 
   
-  // keyboard functions to control the player ball
+  // allow handling multiple keyboard functions to control the player ball
 
   public void keyPressed() {
     // move left
